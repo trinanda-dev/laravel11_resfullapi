@@ -10,3 +10,6 @@ Route::get('/user', function (Request $request) {
 
 //posts
 Route::apiResource('/posts', App\Http\Controllers\Api\PostController::class);
+
+//logins
+Route::apiResource('/logins', App\Http\Controllers\Api\LoginController::class);
